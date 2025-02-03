@@ -6,4 +6,4 @@ y=d['salary']
 model = LinearRegression()
 model.fit(x,y)
 import joblib
-joblib.dump(model,'model.pkl')
+joblib.dump(model,'model.pkl') 
